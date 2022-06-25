@@ -240,11 +240,16 @@ public class UserDaoTest {
     }
 }
 
+3.CRUD
+        
+        1.name space
+        the namespace of the package should be same with the Dao/mapper
+        2.select selece language:
+        id: same with the method name of the name space.
+        resultType: sql return result
+        add, delete and updat need commit;
 
-
-
-
-
+        
 
 
 

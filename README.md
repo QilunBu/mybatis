@@ -249,18 +249,31 @@ public class UserDaoTest {
         resultType: sql return result
         add, delete and updat need commit;
 
+4.MAP
+        when too many attibutes in the map, we need to use map.
+
+5.like research:
+	-1.when executing java code, use % %
+	-2.use % in the sql 
+
+  4.config search
+	1.core config file: configuration:properties  settings  typealiases
+	typeHandlers objectFactory plugins environments mappers
+	
+
+	2.
         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        

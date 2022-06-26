@@ -284,8 +284,13 @@ public class UserDaoTest {
         </environment>
     </environments>
 --------------------------------------------------------
+typealiases : set a short name for the java type
+<!--alias one-->
+    <typeAliases>
+        <typeAlias type="com.qilun.pojo.User" alias="User"/>
+    </typeAliases>
+-----------------------------------------
 
-        
         
         
         

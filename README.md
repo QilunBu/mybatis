@@ -261,11 +261,30 @@ public class UserDaoTest {
 	typeHandlers objectFactory plugins environments mappers
 	
 
-	2.
+	2.mybatis can have many environments, but each time can only use one environment
         
         
-        
-        
+ properties: we can use properties to import config file db.properties
+	in xml, all the files must have ordered queue
+	1.code a db properties file
+	2.import outside file, out config file is priority first.
+<properties resource="db.properties">
+
+    </properties>
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+--------------------------------------------------------
+
         
         
         

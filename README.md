@@ -291,10 +291,30 @@ typealiases : set a short name for the java type
     </typeAliases>
 -----------------------------------------
 
-        
-        
-        
-        
+ LOG:
+STDOUT_LOGGING:
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	<!--    settings-->
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+LOG4J:
+
+1.import dependency        
+      <dependencies>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+    </dependencies>
+2.Use config file to control:
+create log4j.properties in the resources dir
+	
+7.limit page:
+reduce the amount of executing data
+	
         
         
         

@@ -315,7 +315,49 @@ create log4j.properties in the resources dir
 7.limit page:
 reduce the amount of executing data
 	
-        
+8.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
         
         
